@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda | Flora & Fauna Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header>
+  <nav>
+    <a class="logo" href="index.html">Flora &amp; Fauna Indonesia</a>
+
+    <input type="checkbox" id="cek-menu">
+    <label for="cek-menu" class="menu-toggle" aria-label="Buka menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul>
+      <li><a href="index.html" class="aktif">Beranda</a></li>
+
+      <li class="dropdown">
+        <a href="#">Jelajahi</a>
+        <ul class="submenu">
+          <li><a href="flora.html">Flora</a></li>
+          <li><a href="fauna.html">Fauna</a></li>
+          <li><a href="pelestarian.html">Pelestarian</a></li>
+        </ul>
+      </li>
+
+      <li><a href="tentang.html">Tentang</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Kekayaan Alam Indonesia</h1>
+  <p>Indonesia memiliki ribuan jenis tumbuhan dan hewan, banyak di antaranya tidak ditemukan di tempat lain di dunia. Mari kenali dan jaga bersama.</p>
+  <a class="tombol" href="flora.html">Lihat Flora</a>
+  <a class="tombol biru" href="fauna.html">Lihat Fauna</a>
+</section>
+
+<main>
+  <h2 class="judul-halaman">Apa itu flora dan fauna?</h2>
+  <p class="pengantar">Flora adalah seluruh jenis tumbuhan di suatu daerah, sedangkan fauna adalah seluruh jenis hewan di daerah tersebut. Keduanya saling bergantung dalam satu ekosistem.</p>
+
+  <div class="grid">
+    <div class="kartu">
+      <div class="gambar">🌺</div>
+      <div class="isi">
+        <h3>Flora</h3>
+        <p>Kenali bunga, pohon, dan tumbuhan unik khas Indonesia seperti Rafflesia dan anggrek bulan.</p>
+        <a class="label" href="flora.html">Buka halaman Flora</a>
+      </div>
+    </div>
+    <div class="kartu fauna">
+      <div class="gambar">🦧</div>
+      <div class="isi">
+        <h3>Fauna</h3>
+        <p>Kenali hewan langka seperti harimau sumatera, orangutan, dan komodo.</p>
+        <a class="label" href="fauna.html">Buka halaman Fauna</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Flora &amp; Fauna Indonesia &ndash; UTS Praktik Pemrograman Web</p>
+</footer>
+</body>
+</html>
